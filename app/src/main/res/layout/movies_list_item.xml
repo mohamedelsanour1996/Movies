@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/movieItemParent"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+    android:layout_marginTop="2.5dp"
+    android:layout_marginLeft="2.5dp"
+
+>
+
+<ImageView
+    android:id="@+id/MovieImage"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:scaleType="centerCrop"
+    app:layout_constraintDimensionRatio="H,2:3"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+  />
+
+<TextView
+    android:id="@+id/movieTitle"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/grid_info_height"
+    android:background="#99000000"
+    android:ellipsize="none"
+    android:gravity="center_vertical"
+    android:maxLines="2"
+    android:paddingEnd="@dimen/grid_right_padding"
+    android:paddingLeft="@dimen/grid_left_padding"
+    android:paddingRight="@dimen/grid_right_padding"
+    android:paddingStart="@dimen/grid_left_padding"
+    android:text="title"
+    android:textColor="@android:color/white"
+    android:textSize="@dimen/grid_info_text_size"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"/>
+
+
+
+    <TextView
+        android:id="@+id/movieRate"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/grid_info_height"
+        android:ellipsize="none"
+        android:gravity="center_vertical"
+        android:maxLines="2"
+        android:text="Rate"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/grid_info_text_size"
+        android:padding="@dimen/image_padding"
+        android:src="@drawable/ic_star_border_white_24px"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+     />
+
+</android.support.constraint.ConstraintLayout>

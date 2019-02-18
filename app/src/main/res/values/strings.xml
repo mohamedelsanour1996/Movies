@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="release_date">Release Date</string>
+    <string name="user_rating">User Score</string>
+    <string name="plot_synopsis">Overview</string>
+    <string name="add_favorite">Added to favorites</string>
+    <string name="remove_favorite">Removed from favorites</string>
+</resources>
