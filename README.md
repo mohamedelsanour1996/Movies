@@ -1,4 +1,4 @@
-# Movies
+# Movies (Udcity PopularMovies Stage 2)
 # Feature
    - Show Movies by Popular and High Rated
    - Show Movies Description
