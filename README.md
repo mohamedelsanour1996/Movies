@@ -1,4 +1,7 @@
 # Movies (Udcity PopularMovies Stage 2)
+
+## Movie Feast :
+An app that uses the [Movies.db API](https://www.themoviedb.org/?language=en) to find the popular movies and Top rated  movies in realtime and inflate the activities with the data of those movies accordingly. <br />
 # Feature
    - Show Movies by Popular and High Rated
    - Show Movies Description
